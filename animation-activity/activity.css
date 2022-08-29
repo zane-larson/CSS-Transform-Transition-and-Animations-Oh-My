@@ -28,16 +28,16 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {transform: skew(0deg, 0deg);}
+  to {transform: skew(0deg, 45deg)  translate(0px, 30px)}
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {opacity: 1}
+  to {opacity: 0}
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {transform: skew(0deg, 0deg);}
+  to {transform: skew(0deg, -45deg) translate(0px, -30px)}
 }
